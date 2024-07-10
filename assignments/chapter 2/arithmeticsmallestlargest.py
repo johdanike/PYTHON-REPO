@@ -1,7 +1,7 @@
 print("\nTHIS PROGRAM CALCULATES THE SMALLEST AND LARGEST")
 
 sum = 0
-average =0
+average = 0
 product = 1
 largest_value = 0
 smallest_value = 0
@@ -9,16 +9,22 @@ number1 = 0
 number2 = 0
 number3 = 0
 
-#smallest_value = int(input("\nEnter number: "))
+#counter = input("\nEnter count value: ")
+#count = int(counter)
 
-
+#for loops in range(1, count + 1):
 for loops in range(0, 3):
+
 	number = input("\nEnter number: ")
 	number = int(number)
 
-	number += number1
-	number += number2 - (number1)
-	number += number3 - (number2)
+	if loops == 1:
+		number1 = number
+	elif(loops == 2):
+		number2 = number
+	else:
+		number3 = number
+
  
 	sum += number
 	average = sum / 3
