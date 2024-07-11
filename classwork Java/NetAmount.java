@@ -15,7 +15,6 @@ public class NetAmount{
 			3: Get Balance
 
 					""";
-		System.out.println(options);
 
 		
 		int deposit = 0;
@@ -24,7 +23,10 @@ public class NetAmount{
 		int entry = 0;
 
 		while(condition == 1){
-			System.out.println("\n\nSELECT ONE OPTION TRO PROCEED");
+
+			System.out.println(options);
+
+			System.out.println("SELECT ONE OPTION TRO PROCEED");
 			entry = input.nextInt();
 
 			
@@ -33,6 +35,7 @@ public class NetAmount{
 					System.out.print("Amount to be deposited: ");
 					int amount = input.nextInt();
 					balance += amount;
+					System.out.println("You have deposited "+amount+ "and your balance is "+balance);
 					break;
 				case 2: 
 					System.out.print("Amount to withdraw: ");
@@ -42,6 +45,7 @@ public class NetAmount{
 					if(balance == 0)System.out.println("Insufficient balance");
 					if(withdraw > balance)System.out.println("Insufficient balance");
 					if(withdraw < 0)System.out.println("Insufficient balance");
+					System.out.println("You have withdrawn "+withdraw);
 					break;
 				case 3:
 					int current_balance = balance;
@@ -50,15 +54,10 @@ public class NetAmount{
 				default:
 					System.out.println("INVALID SELECTION");
 
-			System.out.println("\nDo you wish to continue? Press 1 or -1 to terminate: \n");
-			condition = input.nextInt();
-	
-
 			}
 
-
-
-
+			System.out.println("\nDo you wish to continue? Press 1 or -1 to terminate: \n");
+			condition = input.nextInt();
 
 		}
 
