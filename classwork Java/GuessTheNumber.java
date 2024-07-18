@@ -9,17 +9,19 @@ public class GuessTheNumber{
 		int computer = rand.nextInt(1, 10);
 
 		System.out.println("Let's play a game. \nGuess any number between 1 to 1000 with the fewest guesses");
+		
 
-		int counter = 0;
-		int userInput = 0;
 		String flag = "";
 
 	while(!flag.equalsIgnoreCase("no")){
+
+		int userInput = 0;
+		int counter = 0;
+
+		while(userInput != computer){
 			System.out.println("Enter your guess: ");
 			userInput = input.nextInt();
 			
-			counter++;
-
 			if(userInput < computer)System.out.println("Too low! Try Again");
 			else if(userInput > computer)System.out.println("Too High! Try Again");
 
@@ -28,11 +30,13 @@ public class GuessTheNumber{
 				System.out.printf("\nYou got it at %d attempts. You Rock!!!!", counter);
 			}
 			else if(userInput == computer && counter > 10)System.out.printf("You got it at %d attempts. It took too long to get it!", counter);
-			
+			counter++;
+		}
 
-		System.out.print("Press yes to continue or no to exit! \n");
-		flag = input.next();
-		
+	System.out.print("\nPress yes to continue or no to exit: ");
+	flag = input.next();
+	}
+
 
 	}
 }
