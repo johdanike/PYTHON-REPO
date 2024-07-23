@@ -13,69 +13,67 @@ tax_rate_28 = 28 / 100
 tax_rate_33 = 33 / 100
 tax_rate_35 = 35 / 100
 
-
+tax = 0
 
 
 match choice:
-	case 0:
-		if taxable_income >= 0 and taxable_income <= 8350:
-			tax = taxable_income * tax_rate_10
-		elif taxable_income >= 8351 and taxable_income <= 33950:
-			tax = taxable_income * tax_rate_15
+	case 0:	
+		tax_1 = 0.10 * 8350
+		second_tax = taxable_income - 8350
+		if taxable_income >= 8351 and taxable_income <= 33950:
+			second_tax = tax_1 + (0.15 * second_tax)
 		elif taxable_income >= 33951 and taxable_income <= 82250:
-			tax = taxable_income * tax_rate_25
+			second_tax = tax_1 + (0.25 * second_tax)
 		elif taxable_income >= 82251 and taxable_income <= 171550:
-			tax = taxable_income * tax_rate_28
+			second_tax = tax_1 + (0.28 * second_tax)
 		elif taxable_income >= 171551 and taxable_income <= 372950:
-			tax = taxable_income * tax_rate_33
+			second_tax = tax_1 + (0.33 * second_tax)
 		elif taxable_income >= 372951:
-			tax = taxable_income * tax_rate_35
-	
+			second_tax = tax_1 + (0.35 * second_tax)
 	case 1:
-		if taxable_income >= 0 and taxable_income <= 16700:
-			tax = taxable_income * tax_rate_10
-		elif taxable_income >= 16701 and taxable_income <= 67900:
-			tax = taxable_income * tax_rate_15
+		tax_1 = 0.10 * 16700
+		second_tax = taxable_income - 8350
+		if taxable_income >= 16700 and taxable_income <= 67900:
+			second_tax = tax_1 + (0.15 * second_tax)
 		elif taxable_income >= 67901 and taxable_income <= 137050:
-			tax = taxable_income * tax_rate_25
+			second_tax = tax_1 + (0.25 * second_tax)
 		elif taxable_income >= 137051 and taxable_income <= 208850:
-			tax = taxable_income * tax_rate_28
+			second_tax = tax_1 + (0.28 * second_tax)
 		elif taxable_income >= 208851 and taxable_income <= 372950:
-			tax = taxable_income * tax_rate_33
+			second_tax = tax_1 + (0.33 * second_tax)
 		elif taxable_income >= 372951:
-			tax = taxable_income * tax_rate_35	
-	
+			second_tax = tax_1 + (0.35 * second_tax)
 	case 2:
-		if taxable_income >= 0 and taxable_income <= 8350:
-			tax = taxable_income * tax_rate_10
-		elif taxable_income >= 8351 and taxable_income <= 33950:
-			tax = taxable_income * tax_rate_15
+		tax_1 = 0.10 * 8350
+		second_tax = taxable_income - 8350
+		if taxable_income >= 8351 and taxable_income <= 33950:
+			second_tax = tax_1 + (0.15 * second_tax)
 		elif taxable_income >= 33951 and taxable_income <= 68525:
-			tax = taxable_income * tax_rate_25
+			second_tax = tax_1 + (0.25 * second_tax)
 		elif taxable_income >= 68526 and taxable_income <= 104425:
-			tax = taxable_income * tax_rate_28
+			second_tax = tax_1 + (0.28 * second_tax)
 		elif taxable_income >= 104426 and taxable_income <= 186475:
-			tax = taxable_income * tax_rate_33
+			second_tax = tax_1 + (0.33 * second_tax)
 		elif taxable_income >= 186476:
-			tax = taxable_income * tax_rate_35
-
-	case 3: 
-		if taxable_income >= 0 and taxable_income <= 11950:
-			tax = taxable_income * tax_rate_10
-		elif taxable_income >= 11951 and taxable_income <= 45500:
-			tax = taxable_income * tax_rate_15
+			second_tax = tax_1 + (0.35 * second_tax)
+	case 3:
+		tax_1 = 0.10 * 11950
+		second_tax = taxable_income - 8350
+		if taxable_income >= 11951 and taxable_income <= 45500:
+			second_tax = tax_1 + (0.15 * second_tax)
 		elif taxable_income >= 45501 and taxable_income <= 117450:
-			tax = taxable_income * tax_rate_25
+			second_tax = tax_1 + (0.25 * second_tax)
 		elif taxable_income >= 117451 and taxable_income <= 190200:
-			tax = taxable_income * tax_rate_28
+			second_tax = tax_1 + (0.28 * second_tax)
 		elif taxable_income >= 190201 and taxable_income <= 372950:
-			tax = taxable_income * tax_rate_33
+			second_tax = tax_1 + (0.33 * second_tax)
 		elif taxable_income >= 372951:
-			tax = taxable_income * tax_rate_35
+			second_tax = tax_1 + (0.35 * second_tax)
+	
 
 
 	
-print(f"Your tax is {tax}")
+print(f"Your cummulative tax is {second_tax}")
 
 
 
