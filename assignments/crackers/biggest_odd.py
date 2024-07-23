@@ -1,17 +1,13 @@
 def biggest_odd(numbers):
-	number_list = list(numbers)
-	big_num_odd = int(number_list[0] )
-	
+	maximum_number = 0
+
+	for character in numbers:
+		number = int(character)
+
+		if number % 2 != 0 and number > maximum_number:
+			maximum_number = number
+
+	return maximum_number
 
 
-
-	for elements in number_list:
-		
-		if elements % 2 == 1 and elements > big_num_odd:
-			big_num_odd = elements
-			
-
-	return big_num_odd
-
-
-biggest_odd("23569")	
+print(biggest_odd("15274"))
