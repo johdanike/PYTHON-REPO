@@ -6,13 +6,6 @@ for index, value in enumerate(options):
 choice = int(input("\nEnter filing status: "))
 taxable_income = int(input("Enter taxable income: "))
 
-tax_rate_10 = 10 / 100
-tax_rate_15 = 15 / 100
-tax_rate_25 = 25 / 100
-tax_rate_28 = 28 / 100
-tax_rate_33 = 33 / 100
-tax_rate_35 = 35 / 100
-
 tax = 0
 
 
