@@ -6,4 +6,6 @@ def mystery(x):
 	return y
 
 print(mystery([1,2,3,4,5]))
-help(mystery([1,2,3]))
+
+answer = ("THE FUNCTION RAISES EACH ELEMENT OF THE LIST TO THE POWER OF TWO")
+print(f'Answer: {answer}')
