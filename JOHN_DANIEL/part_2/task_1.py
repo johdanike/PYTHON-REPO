@@ -9,8 +9,11 @@
 """Execution"""
 number = 0
 even_number = []
+even = []
 for number in range(1000,3000):
-	if number % 2 == 0:
-		even_number += [number]
+	even_number += [number]
+	for num in range(len(even_number)):
+		if num % 2 == 0:
+			even += [num]
 	
-print(f'The even numbers between 1000 - 3000 include {even_number}', end="")
+print(f'The even number with even digits between 1000 - 3000 include {num}', end="")
