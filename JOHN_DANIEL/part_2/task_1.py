@@ -10,11 +10,11 @@
 
 """Execution"""
 number = 0
-even_number = []
+number_range = []
 even = []
 for number in range(1000,3000):
-	even_number += [number]
-	for num in range(len(even_number)):
+	number_range += [number]
+	for num in number_range:
 		if num % 2 == 0:
 			even += [num]
 	
