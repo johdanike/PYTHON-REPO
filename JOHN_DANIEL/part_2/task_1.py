@@ -13,4 +13,4 @@ for number in range(1000,3000):
 	if number % 2 == 0:
 		even_number += [number]
 	
-print(f'The even numbers between 1000 - 3000 include {even_number}')
+print(f'The even numbers between 1000 - 3000 include {even_number}', end="")
