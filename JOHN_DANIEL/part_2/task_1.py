@@ -3,6 +3,8 @@
 #Initialise = 0
 #Initialise list
 #Using a for loop, walk through the numbers starting from 1000 to 3000
+#Append numbers into list 
+#Walk through the list using another for loop 
 #If number % 2 == 0, add number to list
 #Output result
 
