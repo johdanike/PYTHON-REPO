@@ -9,7 +9,7 @@ def reverse(number):
 	num = []
 	num += [number]
 	for index in num:
-		reversed_number = index
+		reversed_number = reversed([index])
 		return reversed_number
 
 result = reverse(456)

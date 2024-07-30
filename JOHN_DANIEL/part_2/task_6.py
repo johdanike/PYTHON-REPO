@@ -20,11 +20,11 @@ def get_sortedNumbers(num1, num2, num3):
 	numbers = number_list1 + number_list2 + number_list3
 	for index in range(len(numbers)):
 		if numbers[0] > numbers[1] and numbers[2]:
-			return numbers == [number_list1,number_list2, number_list3]
+			return f'{numbers == [number_list1,number_list2, number_list3]}'
 		elif numbers[1] > numbers[0] and numbers[2]:
-			return numbers == [number_list2,number_list1, number_list3]
+			return f'{numbers == [number_list2,number_list1, number_list3]}'
 		elif numbers[2] > numbers[0] and numbers[1]:
-			return numbers == [number_list3,number_list1, number_list2]
+			return f'{numbers == [number_list3,number_list1, number_list2]}'
 		else: 
 			return numbers
 result = get_sortedNumbers(4, 2, 5)
