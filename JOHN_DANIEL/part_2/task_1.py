@@ -9,13 +9,13 @@
 #Output result
 
 """Execution"""
-number = 0
-number_range = []
-even = []
-for number in range(1000,3000):
-	number_range += [number]
-	for num in number_range:
-		if num % 2 == 0:
-			even += [num]
-	
-print(f'The even number with even digits between 1000 - 3000 include {num}', end="")
+
+1000
+
+for number in range(1000,3001):
+	last_num = number % 10	
+	third_num = number // 10 % 10
+	second_num = number // 100 % 10
+	first_num = number // 1000 % 10
+	if last_num % 2 == 0 and third_num % 2 == 0 and second_num % 2  == 0 and first_num % 2  == 0:
+		print(number, end=", ")

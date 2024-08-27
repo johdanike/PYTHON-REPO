@@ -10,6 +10,7 @@ letters = []
 sentence = []
 dig_letters = 0
 dig_number = 0
+counter = 0
 
 alphabets = ["a","A",'b','B', 'c','C', 'd','D','e',"E", 'f','F','g', 'G', 'h','H','i','I','j','J','k','K','l','L','m','M','n','N','o','O','p','P','q','Q','r','R','s','S','t','T','w','W','x','X','y','Y','z', 'Z']
 
