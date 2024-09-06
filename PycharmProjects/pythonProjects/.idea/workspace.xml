@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae1163fc-428e-4902-8c24-bb813ab949a2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pythonProjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/test_bankfunc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/test_biggestodd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/test_classwork.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/test_equalstrings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/akant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bankfunc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biggestodd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bike/automaticbike/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classwork.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/equalstrings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listexample/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listexample/cornflakes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listexample/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listexample/rough.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schoolgrade/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schoolgrade/src/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schoolgrade/src/school_grade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schoolgrade/src/schoolfunc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schoolgrade/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sortedbyjohn.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2kuuLmfEHYeK4JMsfIUwHb0iUQE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_bankfunc.TestAccount.test_that_account_can_be_withdrawn_from.executor": "Run",
+    "Python tests.Python tests for test_biggestodd.TestBiggestOdds.executor": "Run",
+    "Python tests.Python tests for test_biggestodd.TestBiggestOdds.test_biggest_function_returns_biggest_odd.executor": "Run",
+    "Python tests.Python tests for test_biggestodd.TestBiggestOdds.test_that_also_asserts_biggest_odd.executor": "Run",
+    "Python tests.Python tests for test_biggestodd.TestBiggestOdds.test_that_also_checks_biggest_odd.executor": "Run",
+    "Python tests.Python tests for test_biggestodd.TestBiggestOdds.test_that_checks_biggest_odd_function.executor": "Run",
+    "Python tests.Python tests for test_classwork.TestClassWorks.executor": "Run",
+    "Python tests.Python tests for test_classwork.TestClassWorks.test_that_checks_that_index_are_raised_and_converted_to_dict.executor": "Run",
+    "Python tests.Python tests for test_classwork.TestClassWorks.test_that_converted_to_dict.executor": "Run",
+    "Python tests.Python tests for test_equalstrings.TestEqualStrings.executor": "Run",
+    "Python tests.Python tests for test_equalstrings.TestEqualStrings.test_equal_strings.executor": "Run",
+    "Python tests.Python tests for test_equalstrings.TestEqualStrings.test_equalstrings.executor": "Run",
+    "Python tests.Python tests for test_equalstrings.TestEqualStrings.test_for_equal_strings.executor": "Run",
+    "Python tests.Python tests for test_equalstrings.TestEqualStrings.test_not_equalstrings.executor": "Run",
+    "Python tests.Python tests in test_bankfunc.py.executor": "Run",
+    "Python tests.Python tests in test_classwork.py.executor": "Run",
+    "Python tests.Python tests in test_equalstrings.py.executor": "Run",
+    "Python.akant.executor": "Run",
+    "Python.bankfunc.executor": "Run",
+    "Python.biggestodd.executor": "Run",
+    "Python.classwork.executor": "Run",
+    "Python.cornflakes.executor": "Run",
+    "Python.equalstrings.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.school_grade.executor": "Run",
+    "Python.schoolfunc.executor": "Run",
+    "Python.sortedbyjohn.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/DELL USER/Desktop/PYTHON-REPO",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL USER\PycharmProjects\pythonProjects\listexample" />
+      <recent name="C:\Users\DELL USER\PycharmProjects\pythonProjects\Tests" />
+      <recent name="C:\Users\DELL USER\PycharmProjects\pythonProjects" />
+      <recent name="C:\Users\DELL USER\PycharmProjects\pythonProjects\cornflakes" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pythonProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\DELL USER\PycharmProjects\pythonProjects\listexample\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_biggestodd.TestBiggestOdds" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_biggestodd.TestBiggestOdds&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_classwork.TestClassWorks" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_classwork.TestClassWorks&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_classwork.TestClassWorks.test_that_checks_that_index_are_raised_and_converted_to_dict" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_classwork.TestClassWorks.test_that_checks_that_index_are_raised_and_converted_to_dict&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_classwork.TestClassWorks.test_that_converted_to_dict" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_classwork.TestClassWorks.test_that_converted_to_dict&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_equalstrings.TestEqualStrings" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_equalstrings.TestEqualStrings&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_classwork.TestClassWorks" />
+        <item itemvalue="Python tests.Python tests for test_classwork.TestClassWorks.test_that_converted_to_dict" />
+        <item itemvalue="Python tests.Python tests for test_classwork.TestClassWorks.test_that_checks_that_index_are_raised_and_converted_to_dict" />
+        <item itemvalue="Python tests.Python tests for test_biggestodd.TestBiggestOdds" />
+        <item itemvalue="Python tests.Python tests for test_equalstrings.TestEqualStrings" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-PY-242.20224.347" />
+        <option value="bundled-python-sdk-c2d6afa66fbe-39cff9de6eef-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.20224.347" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae1163fc-428e-4902-8c24-bb813ab949a2" name="Changes" comment="" />
+      <created>1724145731868</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724145731868</updated>
+      <workItem from="1724145754205" duration="20298000" />
+      <workItem from="1724189009503" duration="3458000" />
+      <workItem from="1724260467846" duration="11851000" />
+      <workItem from="1724300427414" duration="8636000" />
+      <workItem from="1724380415420" duration="21994000" />
+      <workItem from="1724584413426" duration="811000" />
+      <workItem from="1724748382871" duration="5551000" />
+      <workItem from="1724768813756" duration="493000" />
+      <workItem from="1724769326856" duration="1218000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pythonProjects$sortedbyjohn.coverage" NAME="sortedbyjohn Coverage Results" MODIFIED="1724429054533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProjects$biggestodd.coverage" NAME="biggestodd Coverage Results" MODIFIED="1724425579288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProjects$equalstrings.coverage" NAME="equalstrings Coverage Results" MODIFIED="1724428724689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProjects$schoolfunc.coverage" NAME="schoolfunc Coverage Results" MODIFIED="1724305943314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/schoolgrade/src" />
+    <SUITE FILE_PATH="coverage/pythonProjects$main.coverage" NAME="main Coverage Results" MODIFIED="1724748452750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/schoolgrade/src" />
+    <SUITE FILE_PATH="coverage/pythonProjects$.coverage" NAME=" Coverage Results" MODIFIED="1724770099031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/pythonProjects$school_grade.coverage" NAME="school_grade Coverage Results" MODIFIED="1724351090059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/schoolgrade/src" />
+    <SUITE FILE_PATH="coverage/pythonProjects$akant.coverage" NAME="akant Coverage Results" MODIFIED="1724406002298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProjects$bankfunc.coverage" NAME="bankfunc Coverage Results" MODIFIED="1724168503610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProjects$classwork.coverage" NAME="classwork Coverage Results" MODIFIED="1724770302843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProjects$cornflakes.coverage" NAME="cornflakes Coverage Results" MODIFIED="1724189277347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
