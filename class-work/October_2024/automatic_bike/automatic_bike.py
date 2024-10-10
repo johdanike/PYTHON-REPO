@@ -31,9 +31,9 @@ class AutomaticBike:
         if self.get_is_on():
             if 0 < self.get_speed() <= 20:
                 self.gear = 1
-            elif 20 < self.get_speed() <= 30:
+            elif 20 <= self.get_speed() <= 30:
                 self.gear = 2
-            elif 30 < self.get_speed() <= 40:
+            elif 30 <= self.get_speed() <= 40:
                 self.gear = 3
             else:
                 self.gear = 4

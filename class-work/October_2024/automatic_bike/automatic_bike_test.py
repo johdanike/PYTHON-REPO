@@ -55,7 +55,7 @@ class AutomaticBikeTest(unittest.TestCase):
         # bike.set_acceleration()
         # self.assertEqual(26, current_speed)
 
-    def test_that_bike_is_on_and_on_gear_3_current_speed_is_31_i_accel_it_becoes_34(self):
+    def test_that_bike_is_on_and_on_gear_3_current_speed_is_31_i_accel_it_becomes_34(self):
         bike = AutomaticBike()
         bike.turn_bike_on()
         current_state = bike.get_is_on()
