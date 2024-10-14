@@ -49,8 +49,9 @@ class AutomaticBikeTest(unittest.TestCase):
         current_state = bike.get_is_on()
         self.assertTrue(current_state)
         for index in range(24):
+            bike.set_gear()
             bike.set_acceleration()
-        current_speed = bike.get_speed()-1
+        current_speed = bike.get_speed()
         self.assertEqual(26, current_speed)
         # bike.set_acceleration()
         # self.assertEqual(26, current_speed)

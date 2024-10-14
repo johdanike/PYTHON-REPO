@@ -133,8 +133,6 @@ class TestACFunctionalities(unittest.TestCase):
         ac.turn_ac_off()
         given = ac.get_is_on()
         self.assertEqual(given, False)
-        ac.turn_swing_on()
-        swing_state = ac.get_swing_mode()
-        self.assertRaises(ValueError, ac.turn_swing_off, True)
+        self.assertRaises(ValueError, ac.turn_swing_on)
 
 

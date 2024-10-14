@@ -16,13 +16,14 @@ class AutomaticBike:
         if self.get_is_on():
             if self.get_gear() == 1:
                 self.speed += 1
-            if self.get_gear() == 2:
+            elif self.get_gear() == 2:
                 self.speed += 2
-            if self.get_gear() == 3:
+            elif self.get_gear() == 3:
                 self.speed += 3
-            if self.get_gear() == 4:
+            elif self.get_gear() == 4:
                 self.speed += 4
-        self.set_gear()
+            else:
+                self.set_gear()
 
     def get_speed(self):
         return self.speed
@@ -31,12 +32,21 @@ class AutomaticBike:
         if self.get_is_on():
             if 0 < self.get_speed() <= 20:
                 self.gear = 1
+                if self.get_gear() == 1:
+                    self.speed += 1
+                # self.speed +=1
             elif 20 <= self.get_speed() <= 30:
                 self.gear = 2
+                if self.get_gear() == 2:
+                    self.speed += 2
             elif 30 <= self.get_speed() <= 40:
                 self.gear = 3
+                if self.get_gear() == 3:
+                    self.speed += 3
             else:
                 self.gear = 4
+                if self.get_gear() == 4:
+                    self.speed += 4
 
     def get_gear(self):
         return self.gear
